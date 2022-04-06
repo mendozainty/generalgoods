@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>General Goods International Trading</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap-grid.min.css" integrity="sha512-Xj2sd25G+JgJYwo0cvlGWXoUekbLg5WvW+VbItCMdXrDoZRWcS/d40ieFHu77vP0dF5PK+cX6TIp+DsPfZomhw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <section class="home container-fluid">  
+    <nav class="nav">
+      <div class="container">
+          <div class="logo">
+              <a href="#" style="font-size: 34px;">General Goods Trading</a>
+          </div>
+          <div id="mainListDiv" class="main_list">
+              <ul class="navlinks">
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#products">Products</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </div>
+          <span class="navTrigger">
+              <i></i>
+              <i></i>
+              <i></i>            
+          </span>
+      </div>
+    </nav>  
+  </section>
+
+<div class="col-md-4 mt-1"><img src="./images/tissue.jpg" alt="tissue" class="img-fluid img-responsive rounded product-image" style="width: 300px;"></div>
+<div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>Toilet paper (15/16/17gsm) - long fiber 100% virgin paper pulp</span></div>
+                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>Tissue paper (20/24/28/30gsm) - long fiber 100% virgin paper pulp</span></div>
+                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>Kraft paper (90-170gsm) - brown long & short fiber</span></div>
+                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>Kraft paper (140gsm) - 100% long fiber without bleach</span></div>
+                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>Kraft paper (90/120gsm) - white monolluced long & short fiber</span></div>
+<div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><a href="mailto: inty@generalgoodstrading.com">Get a Quotation!</a></div>
+
+</section>
+
+<footer>
+  <div class="strip d-flex px-4 py-1 bg-dark text-center" style="background-color: black;">
+    <p class="color-primary m-0 text-center" style="font-size: 12px; color: #fff;">Copyright 2022 - General Goods Trading</p>
+  </div>
+</footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
+  <script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+            console.log("OK");
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+</body>
+</html>

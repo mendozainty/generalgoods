@@ -92,6 +92,49 @@ body {
     transition: all 0.4s ease;
 }
 
+a.paper:link {
+    color: #000;
+    text-decoration: none;    
+}
+
+a.paper:visited {
+    color: #2e2eac;
+    text-decoration: none;
+}
+
+a.paper:hover{
+    text-decoration: underline;
+}
+
+.container{
+    position: relative;
+}
+
+.text-block{
+    display: inline-block;
+    width: 225px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    background-color: rgb(39, 34, 34);
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-block-contact{
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    background-color: rgb(39, 34, 34);
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 /* Media qurey section */
 

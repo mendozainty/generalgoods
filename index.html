@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-  <section class="home container-fluid" style="width: 100%; height: 100vh; background-image: url('./images/supermarket.jpg'); background-position: center top; background-size: cover;">  
+  <section class="home container-fluid">  
     <nav class="nav">
       <div class="container">
           <div class="logo">
@@ -40,71 +40,75 @@
       <hr>
       <div class="d-flex justify-content-center row">
         <div class="col-md-12">
+          <img src="./images/banner-about.jpg" alt="banner-about" class="img-fluid img-responsive rounded mb-1 pt-5 border" style="width: 100%; opacity: 0.5; filter: blur(1px);">
           <p style="font-size: 18px;">Since 2017 we are focused in Commodities Trading and Supply Chain Development and Management.</p>
           <p style="font-size: 18px;">Our Network comprises main players in several industries, such as, Paper Products, Hard and Soft Wood Products, Grains and Sugar.</p>            
           <p style="font-size: 18px;">Based on the high productivity of the Brazilian Agribusiness, our team and partners can offer you the best solution in soft</p>  
-          <p style="font-size: 18px;">commodities Supply Chain.</p>  
-          <img src="./images/banner-about.jpg" alt="banner-about" class="img-fluid img-responsive rounded mb-1" style="width: 100%; opacity: 0.8;">
+          <p style="font-size: 18px;">commodities Supply Chain.</p>            
           <span></span>
         </div>
       </div>
     </div>
-
+    
   </section>
   <section id="products">
     <main id="main-site" class="bg-dark">
       
-      <div class="container mt-5 mb-5">
-        <span><h1 style="font-size: 24px;">Products</h1></span>
+      <div id="products_info" class="container mt-5 mb-5">
+        
+        <span><h1 class="pt-5" style="font-size: 24px;">Products</h1></span>
         <hr>
         <div class="d-flex justify-content-center row mb-1">
-          <div class="col-md-12">
-            <div class="row p-2 bg-white border rounded">
-              <div class="col-md-4 mt-1"><img src="./images/tissue.jpg" alt="tissue" class="img-fluid img-responsive rounded product-image" style="width: 300px;"></div>
-              <div class="col-md-8">
-                <h1 style="font-size: 20px;">Paper products</h1>
-                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>Toilet paper (15/16/17gsm) - long fiber 100% virgin paper pulp</span></div>
-                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>Tissue paper (20/24/28/30gsm) - long fiber 100% virgin paper pulp</span></div>
-                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>Kraft paper (90-170gsm) - brown long & short fiber</span></div>
-                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>Kraft paper (140gsm) - 100% long fiber without bleach</span></div>
-                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>Kraft paper (90/120gsm) - white monolluced long & short fiber</span></div>
-                <p></p>
-                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><a href="mailto: inty@generalgoodstrading.com">Get a Quotation!</a></div>
+          <div class="container">
+            <a class="paper" href="paper.html">
+              <img src="/images/paper_bg_main.jpg" alt="paper" style="width: 100%;">
+                
+              <div class="text-block" style="font-size: 18px;">
+                <h1 style="font-size: 20px;">Paper</h1>
+                <p>Toilet paper</p>
+                <p>Tissue paper</p>
+                <p>Kraft paper</p>
               </div>
-            </div>
-          </div>          
+              <p></p>
+            </a>
+          </div>                    
         </div>
 
-        <div class="d-flex justify-content-center row">
-          <div class="col-md-12">
-            <div class="row p-2 bg-white border rounded">
-              <div class="col-md-4 mt-1"><img src="./images/timber.jpg" alt="tissue" class="img-fluid img-responsive rounded product-image" style="width: 300px;"></div>
-              <div class="col-md-8">
-                <h1 style="font-size: 20px;">Wood products</h1>
-                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>Hard Wood Floor</span></div>
-                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>PlyWood Board</span></div>
-                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>Sawn Timber AD/KD</span></div>
-                <p></p>
-                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><a href="mailto: inty@generalgoodstrading.com">Get a Quotation!</a></div>
+        <div class="d-flex justify-content-center row mb-1">
+          <div class="container">
+            <a class="timber" href="timber.html">
+              <img src="/images/timber_bg_main.jpg" alt="paper" style="width: 100%;">
+                
+              <div class="text-block" style="font-size: 18px;">
+                <h1 style="font-size: 20px;">Timber</h1>
+                <p>Hard Wood Floor</p>
+                <p>PlyWood Board</p>
+                <p>Sawn Timber AD/KD</p>
               </div>
-            </div>
-          </div> 
+              <p></p>
+            </a>
+          </div>                    
+        </div>
+        
+
+        <div class="d-flex justify-content-center row mb-1">
+          <div class="container">
+            <a class="softcommodities" href="softcommodities.html">
+              <img src="/images/grains_bg_main.jpg" alt="paper" style="width: 100%;">
+                
+              <div class="text-block" style="font-size: 18px;">
+                <h1 style="font-size: 20px;">Food</h1>
+                <p>Organic Sugar - IC45</p>
+                <p>Soybean</p>
+                <p>Coffee</p>
+                <p>Organic Orange Juice</p>
+              </div>
+              <p></p>
+            </a>
+          </div>                    
         </div>
 
-        <div class="d-flex justify-content-center row">
-          <div class="col-md-12">
-            <div class="row p-2 bg-white border rounded">
-              <div class="col-md-4 mt-1"><img src="./images/grains.jpg" alt="tissue" class="img-fluid img-responsive rounded product-image" style="width: 300px;"></div>
-              <div class="col-md-8">
-                <h1 style="font-size: 20px;">Soft Commodities</h1>
-                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>Organic Sugar - IC45</span></div>
-                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><span>Organic Soybean</span></div> 
-                <p></p>
-                <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><a href="mailto: inty@generalgoodstrading.com">Get a Quotation!</a></div>              
-              </div>
-            </div>
-          </div> 
-        </div>
+        
 
       </div>
 
@@ -119,7 +123,7 @@
           <p style="font-size: 18px;">We can develop and manage a taylor-made Supply Chain Solution for your business.</p>
           <p style="font-size: 18px;">Services comprises: Supplier Identification and Quality Validation, Logistic Solution, Financial Structuring.</p>            
           <p style="font-size: 18px;">Bring your demand and start to import Brazilian High Quality Agricultural Products with competitive prices.</p>  
-          <img src="./images/pepper.jpg" alt="banner-about" class="img-fluid img-responsive rounded mb-1" style="width: 100%; opacity: 0.8;">
+          <img src="./images/pepper.jpg" alt="banner-about" class="img-fluid img-responsive rounded mb-1" style="width: 100%; opacity: 0.8; filter: blur(1px);">
           <span></span>
         </div>
       </div>
@@ -131,6 +135,29 @@
     <div class="container mt-5 mb-5">
       <span><h1 style="font-size: 24px;">Contact</h1></span>
       <hr>
+      <div class="d-flex justify-content-center row mb-1">
+        <div class="container">
+          <a class="contact_info" href="contact.html">
+            <img src="/images/contact_bg_main.jpg" alt="contact" style="width: 100%;">
+          </a>    
+            <div class="text-block-contact" style="font-size: 18px;">
+            <p style="font-size: 14px;">Av. das Nações Unidas, 12551 - 17º floor</p>
+            <p style="font-size: 14px;">Cidade Monções, São Paulo - SP, 04578-903</p>            
+            <p style="font-size: 14px;">Brazil</p>  
+            <p style="font-size: 14px;">Tax Payer nº 26.618.011/0001-23</p>  
+            <p style="font-size: 14px;">+5511-994648080</p>
+            <p style="font-size: 14px;">Mr. Inty Mendoza - Comercial Manager</p>
+            <p><a href="mailto: inty@generalgoodstrading.com" style="font-size: 14px; color: #fff; text-decoration: none;">Contact us</a></p>
+            </div>
+            <p></p>          
+        </div>                    
+      </div>
+    </div>
+    
+
+    <!-- <div class="container mt-5 mb-5">
+      <span><h1 style="font-size: 24px;">Contact</h1></span>
+      <hr>
       <div class="d-flex justify-content-center row">
         <div class="col-md-12">
           <p style="font-size: 14px;">Av. das Nações Unidas, 12551 - 17º floor</p>
@@ -138,12 +165,12 @@
           <p style="font-size: 14px;">Brazil</p>  
           <p style="font-size: 14px;">Tax Payer nº 26.618.011/0001-23</p>  
           <p style="font-size: 14px;">+5511-994648080</p>
-          <p style="font-size: 14px;">Mr. Inty Mendoza - Managing Director</p>
+          <p style="font-size: 14px;">Mr. Inty Mendoza - Comercial Manager</p>
           <div class="mt-1 mb-1 spec-1" style="font-size: 18px;"><a href="mailto: inty@generalgoodstrading.com">Contact us</a></div>
           <span></span>
         </div>
       </div>
-    </div>
+    </div> -->
 
   </section>
 
