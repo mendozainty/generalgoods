@@ -28,10 +28,12 @@ body {
     padding-left: 3rem;
 }
 
+
 .nav div.logo a {
     text-decoration: none;
     color: #fff;
     font-size: 2.5rem;
+    
 }
 
 .nav div.logo a:hover {
@@ -81,6 +83,14 @@ body {
 	background-size:cover;
 }
 
+.home_product {
+    width: 100%;
+    height: 200px;
+    background-image: url('./images/supermarket_product_page.jpg');
+    background-position: center top;
+	background-size:cover;
+}
+
 .navTrigger {
     display: none;
 }
@@ -114,8 +124,8 @@ body {
     width: 400px;
     height: auto;
     position: absolute;
-    top: 10px;
-    left: 40px;
+    top: 50px;
+    left: 80px;
     background-color: rgb(39, 34, 34);
     color: #fff;
     padding-left: 20px;
@@ -130,16 +140,18 @@ body {
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 768px){
     .text-block {
         height: 50px;
         top: 10px;
+        width: 100px;
     }
 
     .text-block-contact {
-        width: 225px;
+        width: 120px;
         height: 50px;
         top: 10px;
+        padding-top: 4px;
     }
 
     .contact_items {
@@ -210,7 +222,7 @@ body {
     margin: auto;
     position: absolute;
     right: 30px;
-    top: 0;
+    top: 68px;
     bottom: 0;
 }
 
