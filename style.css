@@ -92,20 +92,6 @@ body {
     transition: all 0.4s ease;
 }
 
-a.paper:link {
-    color: #000;
-    text-decoration: none;    
-}
-
-a.paper:visited {
-    color: #2e2eac;
-    text-decoration: none;
-}
-
-a.paper:hover{
-    text-decoration: underline;
-}
-
 .container{
     position: relative;
 }
@@ -144,6 +130,32 @@ a.paper:hover{
     }
 }
 
+@media screen and (max-width: 600px){
+    .text-block {
+        height: 50px;
+        top: 10px;
+    }
+
+    .text-block-contact {
+        width: 225px;
+        height: 50px;
+        top: 10px;
+    }
+
+    .contact_items {
+        display: none;
+    }
+
+    
+    .items {
+        display: none;
+    }
+
+    .logo_font{
+        font-size: 12px;
+    }
+}
+
 @media screen and (max-width:768px) {
     .navTrigger {
         display: block;
@@ -151,6 +163,7 @@ a.paper:hover{
     .nav div.logo {
         margin-left: 15px;
     }
+
     .nav div.main_list {
         width: 100%;
         height: 0;
