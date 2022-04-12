@@ -2,6 +2,10 @@
     $(this).toggleClass('active');    
     $("#mainListDiv").toggleClass("show_list");
     $("#mainListDiv").fadeIn();
+    $("#mainListDiv").on("click", function (){
+      $("#mainListDiv").removeClass("show_list");
+      $('.navTrigger').removeClass('active');      
+    })
 
 });
 
