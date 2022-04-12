@@ -159,6 +159,10 @@ body {
         display: none;
     }
 
+    .contact_image {
+        display: none;
+        height: 50px;
+    }
     
     .items {
         display: none;
